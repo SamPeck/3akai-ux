@@ -22,25 +22,53 @@ body {
 
 /* LANDING PAGE */
 .landing.oae-main-content {
-	background-image: url('/ui/img/framework/landing-white-small.png') rgb(238,178,17) !important; /* Old browsers */
-	background-image: url('/ui/img/framework/landing-white-small.png'), -moz-linear-gradient(top,  rgba(238,178,17,1) 0%, rgba(197,147,83,1) 100%) !important; /* FF3.6+ */
-	background-image: url('/ui/img/framework/landing-white-small.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,178,17,1)), color-stop(100%,rgba(197,147,83,1))) !important; /* Chrome,Safari4+ */
-	background-image: url('/ui/img/framework/landing-white-small.png'), -webkit-linear-gradient(top,  rgba(238,178,17,1) 0%,rgba(197,147,83,1) 100%) !important; /* Chrome10+,Safari5.1+ */
-	background-image: url('/ui/img/framework/landing-white-small.png'), linear-gradient(to bottom,  rgba(238,178,17,1) 0%,rgba(197,147,83,1) 100%) !important; /* W3C */
-    background-position: top center !important;
-    background-repeat: no-repeat !important;
-    background-image: 100% !important;
+	background: url('http://api.ning.com/files/ZVGcNjqMgOwGrh8d6LyUisW7VDq2lfZhSJSYp*cFs6VLJY3Ao2soLWun*0mSy9DFOjqiJiJuTvvte1n2w4Px3nZqCpg8y8Ba/CampusoftheweekGT102111.jpg') no-repeat center center transparent;
+  background-size: 100%;
+}
+
+.landing .landing-search-container {
+    background: rgba(238, 178, 17, 0.85);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 25px auto 50px;
+    padding: 2% 0;
+}
+
+#landing-content .span5 {
+    background: rgba(0, 37, 76, 0.95);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+   padding: 15px 15px 5px 15px;
+}
+
+#landing-content .row-fluid .span4 {
+    background: rgba(238, 178, 17, 0.85);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 15px;
+    margin: 20px 6px 10px 6px;
+}
+
+#landing-content .row-fluid .span4:before {
+    margin-left: 0;
+}
+
+#landing-content .row-fluid .span4:after {
+    margin-right: 0;
 }
 
 /* TEXT COLORS */
 
 .landing .landing-search-container label {
-    color: #333 !important;
+    color: #00254c !important;
     text-shadow: 0 0 1px #444444 !important;
 }
 
 .landing #landing-slogan {
-    color: #333 !important;
+    color: #EEB211 !important;
 }
 
  .landing .landing-bottom-description {
@@ -48,11 +76,11 @@ body {
 }
 
 .landing #landing-slogan-description {
-    color: #333 !important;
+    color: #fff !important;
 }
 
 .landing .landing-bottom-slogan {
-    color: #333 !important;
+    color: #00254c !important;
 }
 
 .landing .landing-bottom-description {

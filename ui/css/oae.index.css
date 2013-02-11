@@ -17,17 +17,13 @@ body {
     margin: 0;
 }
 
-.landing.oae-main-content {
-    background: url('/ui/img/framework/landing.png') no-repeat top center #055b91;
-}
-
 .landing #landing-content {
     margin: 0 auto;
     width: 985px;
 }
 
 .landing .landing-search-container {
-    background: url("/ui/img/framework/landing-search-bg.png") repeat scroll 0 0 transparent;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -51,9 +47,9 @@ body {
     box-sizing: padding-box;
     -moz-box-sizing: padding-box;
     -webkit-box-sizing: padding-box;
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
     float: left;
     height: 35px;
     margin-right: 7px;
@@ -123,6 +119,7 @@ body {
     font-weight: 200;
     margin-top: 25px;
     text-shadow: 0 0 1px #444;
+    padding-right: 15px;
 }
 
 .landing #landing-contentauthoring-experiences,

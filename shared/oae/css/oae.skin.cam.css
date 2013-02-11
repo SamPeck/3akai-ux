@@ -17,31 +17,33 @@
 
 body {
    background-color: #ECEAE5;
-   margin: 0;
+   margin: 0 !important;
 }
 
 /* LANDING PAGE */
 .landing.oae-main-content {
-	background-image: url('/ui/img/framework/landing-white-small.png') rgb(37,169,223); /* Old browsers */
-	background-image: url('/ui/img/framework/landing-white-small.png'), -moz-linear-gradient(top,  rgba(37,169,223,1) 0%, rgba(0,116,167,1) 100%); /* FF3.6+ */
-	background-image: url('/ui/img/framework/landing-white-small.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(37,169,223,1)), color-stop(100%,rgba(0,116,167,1))); /* Chrome,Safari4+ */
-	background-image: url('/ui/img/framework/landing-white-small.png'), -webkit-linear-gradient(top,  rgba(37,169,223,1) 0%,rgba(0,116,167,1) 100%); /* Chrome10+,Safari5.1+ */
-	background-image: url('/ui/img/framework/landing-white-small.png'), linear-gradient(to bottom,  rgba(37,169,223,1) 0%,rgba(0,116,167,1) 100%); /* W3C */
+    background-image: url('/ui/img/framework/landing-white-small.png') rgb(0,62,116); /* Old browsers */
+    background-image: url('/ui/img/framework/landing-white-small.png'), -moz-linear-gradient(top,  rgba(0,62,116,1) 0%, rgba(0,114,207,1) 100%); /* FF3.6+ */
+    background-image: url('/ui/img/framework/landing-white-small.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,62,116,1)), color-stop(100%,rgba(0,114,207,1))); /* Chrome,Safari4+ */
+    background-image: url('/ui/img/framework/landing-white-small.png'), -webkit-linear-gradient(top,  rgba(0,62,116,1) 0%,rgba(0,114,207,1) 100%); /* Chrome10+,Safari5.1+ */
+    background-image: url('/ui/img/framework/landing-white-small.png'), linear-gradient(to bottom,  rgba(0,62,116,1) 0%,rgba(0,114,207,1) 100%); /* W3C */
     background-position: top center;
     background-repeat: no-repeat;
+    background-image: 100%;
 }
+
 
 /* INSTITUTION LOGO */
 
 .oae-institutional-logo {
-    background-image: url('/ui/img/framework/oae-logo.png');
-    background-size: auto 34.5px;
+    background-image: url('http://www.sampeck.co.uk/files/oae/cambridge-university-logo.png');
+    background-size: auto 35px;
 }
 
 /* LINK COLORS */
 
 a, .btn-link {
-   color: #0088CC;
+   color: #00274D;
 }
 
 a:hover, .btn-link:hover {
@@ -53,7 +55,7 @@ a:hover, .btn-link:hover {
 /* ICON BUTTON COLORS */
 
 [class^="icon-"], [class*=" icon-"] {
-   color: #A9A9A9;
+   color: #333;
 }
 
 [class^="icon-"]:hover, [class*=" icon-"]:hover,
